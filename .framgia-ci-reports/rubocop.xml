@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<checkstyle>
+  <file name='app/channels/application_cable/channel.rb'/>
+  <file name='app/channels/application_cable/connection.rb'/>
+  <file name='app/controllers/application_controller.rb'/>
+  <file name='app/helpers/application_helper.rb'/>
+  <file name='app/jobs/application_job.rb'>
+    <error line='5' column='80' severity='info' message='Metrics/LineLength: Line is too long. [82/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='app/mailers/application_mailer.rb'>
+    <error line='2' column='16' severity='info' message='Style/StringLiterals: Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='3' column='9' severity='info' message='Style/StringLiterals: Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+  </file>
+  <file name='app/models/application_record.rb'/>
+</checkstyle>
