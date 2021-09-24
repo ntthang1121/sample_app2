@@ -1,0 +1,14 @@
+<% provide :title, t("page_help.title_help") %>
+<div class="center jumbotron">
+ <h1><%= t "page_help.help"%></h1>
+ <h2>
+   <%= t "page_help.content_help.content_help1"%>
+   <%= link_to "http://www.railstutorial.org/help" %>
+   <%= t "page_help.content_help.content_help2"%>
+   <%= t "page_help.content_help.content_help3"%>
+   <%= link_to "http://www.railstutorial.org/book" %>
+   <em><%= t "page_help.content_help.content_help4"%></em>
+   <%= t "page_help.content_help.content_help5"%>
+ </h2>
+ <%= link_to t("page_help.help_now"), "#", class:"btn btn-success"%>
+</div>
