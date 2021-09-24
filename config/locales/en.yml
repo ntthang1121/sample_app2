@@ -85,3 +85,18 @@ en:
       previous: "&lsaquo; Prev"
       next: "Next &rsaquo;"
       truncate: "&hellip;"
+  account_activation:
+    welcome: "Sample App"
+    hi: "Hi"
+    content: "Welcome to the Sample App! Click on the link below to activate your account:"
+    submit: "Activate"
+  session_controller_create:
+    msg: "Account not activated. Check your email for the activation link."
+    msg_danger: "Invalid email password combination"
+  account_activation_controller:
+    msg_success: "Account activated!"
+    msg_danger: "Invalid activation link"
+  user_controller_create:
+    msg_info: "Please check your email to activate your account."
+  user_mailer:
+    subject: "Account activation"
