@@ -1,0 +1,4 @@
+validations:
+  digit:
+    length_6: 6
+    length_50: 50
