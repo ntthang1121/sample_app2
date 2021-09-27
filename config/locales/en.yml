@@ -64,6 +64,8 @@ en:
     title_new_session: "Login"
     new_user: "New user"
     sign_up_now: "Sign_up_now!"
+    forgot_password: "forgot password"
+    login: "Log in"
   page_edit:
     button_save: "Save changes"
     title_edit: "Edit"
@@ -100,3 +102,27 @@ en:
     msg_info: "Please check your email to activate your account."
   user_mailer:
     subject: "Account activation"
+    subject_password: "Password reset"
+  password_reset:
+    welcome: "Password reset"
+    content:
+      content1: "To reset your password click the link below:"
+      content2: "This link will expire in two hours."
+      content3: "If you did not request your password to be reset, please ignore this email and your password will tay as it is."
+    submit: "Reset password"
+  page_edit_password:
+    title: "Reset password"
+    submit: "Update password"
+    welcome: "Reset password"
+  page_new_password:
+    title: "Forgot password"
+    submit: "Submit"
+    welcome: "Forgot password"
+  password_reset_controller_create:
+    msg_info: "Email sent with password reset instructions"
+    msg_danger: "Email address not found"
+  password_reset_controller_update:
+    msg_error: "Can't empty"
+    msg_success: "Password has been reset."
+  password_reset_controller_check_expiration:
+    msg: "Password reset has expired."

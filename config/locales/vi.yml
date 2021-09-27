@@ -65,6 +65,8 @@ vi:
     title_new_session: "Đăng nhập"
     new_user: "Người dùng mới?"
     sign_up_now: "Đăng_kí_ngay!"
+    forgot_password: "Quên mật khẩu"
+    login: "Đăng nhập"
   page_edit:
     button_save: "Lưu thay đổi"
     title_edit: "Chỉnh sửa"
@@ -101,3 +103,28 @@ vi:
     msg_info: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
   user_mailer:
     subject: "Kích hoạt tài khoản"
+    subject_password: "Đặt lại mật khẩu"
+  password_reset:
+    welcome: "Đặt lại mật khẩu"
+    content:
+      content1: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      content2: "Liên kết này sẽ hết hạn sau hai giờ."
+      content3: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ ổn định như ban đầu."
+    submit: "Đặt lại mật khẩu"
+  page_edit_password:
+    title: "Đặt lại mật khẩu"
+    submit: "Cập nhật mật khẩu"
+    welcome: "Đặt lại mật khẩu"
+  page_new_password:
+    title: "Quên mật khẩu"
+    submit: "Gửi"
+    welcome: "Quên mật khẩu"
+  password_reset_controller_create:
+    msg_info: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    msg_danger: "Không tìm thấy địa chỉ email"
+  password_reset_controller_update:
+    msg_error: "Không thể trống"
+    msg_success: "Mật khẩu đã được đặt lại."
+  password_reset_controller_check_expiration:
+    msg: "Đặt lại mật khẩu đã hết hạn."
+

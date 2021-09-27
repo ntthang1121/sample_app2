@@ -6,12 +6,13 @@
       <%= f.label :email %>
       <%= f.email_field :email, class: "form-control" %>
       <%= f.label :password %>
+      <%= link_to t("page_new_session.forgot_password"), new_password_reset_path %>
       <%= f.password_field :password, class: "form-control" %>
       <%= f.label :remember_me, class: "checkbox inline" do %>
         <%= f.check_box :remember_me %>
         <span><%= t"page_new_session.message_remember" %></span>
       <% end %>
-      <%= f.submit "Log in", class: "btn btn-primary" %>
+      <%= f.submit t("page_new_session.login"), class: "btn btn-primary" %>
     <% end %>
     <p><%= t "page_new_session.new_user" %><%= link_to t("page_new_session.sign_up_now"), signup_path %></p>
   </div>
