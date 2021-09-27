@@ -8,6 +8,11 @@ class User < ApplicationRecord
       minimum: Settings.validations.digit.length_6,
       maximum: Settings.validations.digit.length_50
     }
+  validates :password, presence: true,
+    length: {
+      minimum: Settings.validations.digit.length_6,
+      maximum: Settings.validations.digit.length_50
+    }, allow_nil: true
   has_secure_password
 
   def self.digest string
@@ -18,7 +23,6 @@ class User < ApplicationRecord
            end
     BCrypt::Password.create string, cost: cost
   end
-
 
   class << self
     def new_token

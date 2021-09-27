@@ -30,9 +30,16 @@ vi:
   page_new:
     title_new: "Đăng Kí"
     submit: "Gửi Đi"
+    button_create: "Tạo tài khoản"
+    sign_up: "Đăng kí"
   user_controller:
     create_success:
       message_success: "Đăng kí thành công. Chào mừng đến với Sample App!"
+    update:
+      message_update_success: "Hồ sơ các nhân đã được cập nhật"
+    delete:
+      message_delete_success: "Người dùng đã bị xóa"
+      message_delete_failed: "Xoá thất bại"
   user_nil:
     message_nil: "Không tìm thấy người dùng!!!!!!"
   shared:
@@ -45,6 +52,7 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+    button_create: "Create account"
   dropdown:
     account: "Tài khoản"
     profile: "Hồ sơ"
@@ -55,3 +63,26 @@ vi:
   page_new_session:
     message_remember: "  Hãy nhớ tôi trên máy tính này"
     title_new_session: "Đăng nhập"
+    new_user: "Người dùng mới?"
+    sign_up_now: "Đăng_kí_ngay!"
+  page_edit:
+    button_save: "Lưu thay đổi"
+    title_edit: "Chỉnh sửa"
+    welcome: "Cập nhật hồ sơ của bạn"
+  logged_user:
+    message_danger: "Xin vui lòng đăng nhập"
+  page_user:
+    delete: "Xoá"
+    confirm: "Bạn có chắc muốn xóa?"
+  admin_user:
+    message: "Bạn không đủ thẩm quyền"
+  page_all_user:
+    all_user: "Tất cả người dùng"
+    title: "Tất cả người dùng"
+  views:
+    pagination:
+      first: "&laquo; Đầu"
+      last: "Cuối &raquo;"
+      previous: "&lsaquo; Lùi"
+      next: "Tiếp &rsaquo;"
+      truncate: "&hellip;"

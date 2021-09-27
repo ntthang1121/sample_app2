@@ -30,9 +30,16 @@ en:
   page_new:
     title_new: "Sign Up"
     submit: "Submit"
+    button_create: "Create account"
+    sign_up: "Sign Up"
   user_controller:
     create_success:
       message_success: "Sign Up Successfully. Welcome to the Sample App!"
+    update:
+      message_update_success: "Profile updated"
+    delete:
+      message_delete_success: "User deleted"
+      message_delete_failed: "Deleted failed"
   user_nil:
     message_nil: "User not found!!!!!!"
   shared:
@@ -55,3 +62,26 @@ en:
   page_new_session:
     message_remember: "  Remember me on this computer"
     title_new_session: "Login"
+    new_user: "New user"
+    sign_up_now: "Sign_up_now!"
+  page_edit:
+    button_save: "Save changes"
+    title_edit: "Edit"
+    welcome: "Update your profile"
+  logged_user:
+    message_danger: "Please login"
+  page_user:
+    delete: "Delete"
+    confirm: "You sure"
+  admin_user:
+    message: "You are not authorized"
+  page_all_user:
+    all_user: "All users"
+    title: "All users"
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
