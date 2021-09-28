@@ -27,4 +27,21 @@ en:
     title_help: "Help"
   helper:
     base_title: "Ruby on Rails Tutorial Sample App"
-
+  page_new:
+    title_new: "Sign Up"
+    submit: "Submit"
+  user_controller:
+    create_success:
+      message_success: "Sign Up Successfully. Welcome to the Sample App!"
+  user_nil:
+    message_nil: "User not found!!!!!!"
+  shared:
+    error:
+      other: "The Form Contains %{count} error."
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password Confirmation"

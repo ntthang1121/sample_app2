@@ -27,3 +27,23 @@ vi:
     title_help: "Trợ Giúp"
   helper:
     base_title: "Ruby on Rails Tutorial Sample App"
+  page_new:
+    title_new: "Đăng Kí"
+    submit: "Gửi Đi"
+  user_controller:
+    create_success:
+      message_success: "Đăng kí thành công. Chào mừng đến với Sample App!"
+  user_nil:
+    message_nil: "Không tìm thấy người dùng!!!!!!"
+  shared:
+    error:
+      other: "Biểu mẫu chứa %{count} lỗi."
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+
+
