@@ -45,5 +45,10 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
-
-
+  dropdown:
+    account: "Tài khoản"
+    profile: "Hồ sơ"
+    setting: "Cài đặt"
+    logout: "Đăng xuất"
+  session_controller:
+    create_danger: "Mật khẩu hoặc email không hợp lệ"
