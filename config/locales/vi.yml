@@ -52,3 +52,6 @@ vi:
     logout: "Đăng xuất"
   session_controller:
     create_danger: "Mật khẩu hoặc email không hợp lệ"
+  page_new_session:
+    message_remember: "  Hãy nhớ tôi trên máy tính này"
+    title_new_session: "Đăng nhập"

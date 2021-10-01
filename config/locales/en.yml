@@ -52,3 +52,6 @@ en:
     logout: "Log out"
   session_controller:
     create_danger: "Invalid email password combination"
+  page_new_session:
+    message_remember: "  Remember me on this computer"
+    title_new_session: "Login"
