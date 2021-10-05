@@ -2,3 +2,8 @@ validations:
   digit:
     length_6: 6
     length_50: 50
+gravatar:
+  size: 80
+  size_change: 50
+per_page: 15
+
