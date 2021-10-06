@@ -86,3 +86,18 @@ vi:
       previous: "&lsaquo; Lùi"
       next: "Tiếp &rsaquo;"
       truncate: "&hellip;"
+  account_activation:
+    welcome: "Sample App"
+    hi: "Xin chào"
+    content: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản:"
+    submit: "Kích hoạt"
+  session_controller_create:
+    msg: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+    msg_danger: "Kết hợp mật khẩu email không hợp lệ "
+  account_activation_controller:
+    msg_success: "Tài khoản đã được kích hoạt!"
+    msg_danger: "Liên kết kích hoạt không hợp lệ"
+  user_controller_create:
+    msg_info: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+  user_mailer:
+    subject: "Kích hoạt tài khoản"
