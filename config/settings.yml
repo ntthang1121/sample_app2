@@ -6,4 +6,5 @@ gravatar:
   size: 80
   size_change: 50
 per_page: 15
+password_reset_expired: 2
 
