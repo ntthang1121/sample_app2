@@ -1,11 +1,28 @@
 <% provide :title, t("page_home.title_home")%>
-<div class="center jumbotron">
-  <h1><%= t "page_home.welcome" %></h1>
-  <h2><%= t "page_home.content_home.content_home1" %>
-    <%= link_to "https://www.railstutorial.org/" %>
-    <%= t "page_home.content_home.content_home2" %>
-    <%= t "page_home.content_home.content_home3" %>
-  </h2>
-  <%= link_to t("page_home.sign_now"), "#", class: "btn btn-lg btn-primary"%>
-</div>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t "page_home.micropost_Feed" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1><%= t "page_home.welcome" %></h1>
+    <h2><%= t "page_home.content_home.content_home1" %>
+      <%= link_to "https://www.railstutorial.org/" %>
+      <%= t "page_home.content_home.content_home2" %>
+      <%= t "page_home.content_home.content_home3" %>
+    </h2>
+    <%= link_to t("page_home.sign_now"), "#", class: "btn btn-lg btn-primary"%>
+  </div>
+<% end %>
 

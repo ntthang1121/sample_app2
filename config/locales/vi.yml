@@ -15,6 +15,7 @@ vi:
       content_home3: "ứng dụng mẫu."
     sign_now: "Đăng kí ngay!"
     title_home: "Trang Chủ"
+    micropost_Feed: "Nguồn cấp dữ liệu vi mô"
   page_help:
     help: "Trợ Giúp"
     content_help:
@@ -127,4 +128,33 @@ vi:
     msg_success: "Mật khẩu đã được đặt lại."
   password_reset_controller_check_expiration:
     msg: "Đặt lại mật khẩu đã hết hạn."
-
+  page_show_users:
+    microposts: "Bài viết vi mô"
+  page_micropost:
+    delete: "Xóa"
+    confirm: "Bạn có chắc chắn không?"
+    poster: "Đã đăng"
+    ago: "trước kia"
+  page_application_controller:
+    msg_danger: "Xin vui lòng đăng nhập"
+  page_micropost_controller_create:
+    msg_success: "Tạo thành công"
+  page_micropost_controller_destroy:
+    msg_success: "Micropost đã bị xóa"
+    msg_danger: "Xóa không thành công"
+  page_micropost_controller_correct:
+    msg_danger: "Micropost không hợp lệ"
+  page_user_info:
+    view_my_profile: "xem hồ sơ của tôi"
+    other: "%{count} micropost."
+  page_micropost_form:
+    placeholder: "Soạn micropost mới ..."
+    submit: "Bài đăng"
+  micropost_rb_validates:
+    msg_content_type: "phải là một định dạng hình ảnh hợp lệ"
+    msg_size: "phải nhỏ hơn 1MB"
+  page_feed:
+    msg_time_join: "Bạn đã tham gia Sample App vào "
+    msg_micropost: "Bạn chưa có bất kỳ micropost nào?"
+  i18n_js_custom:
+    msg: "Kích thước tệp tối đa là 1MB. Vui lòng chọn một tệp nhỏ hơn."

@@ -3,7 +3,7 @@
     <%= link_to t("global.header.sample_app"), "#", id: "logo" %>>
     <nav class="nav navbar-nav navbar-right">
       <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item"><%= link_to t("global.header.home"), "#" %></li>
+        <li class="nav-item"><%= link_to t("global.header.home"), root_path %></li>
         <li class="nav-item"><%= link_to t("global.header.help"), static_pages_help_path %></li>
 
         <% if logged_in? %>

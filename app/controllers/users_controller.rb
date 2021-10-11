@@ -62,7 +62,8 @@ class UsersController < ApplicationController
 
   def load_user
     @user = User.find_by(id: params[:id])
-    return  if @user
+    @microposts = @user.microposts.paginate(page: params[:page])
+    return if @user
 
     flash[:warning] = t "user_nil.message_nil"
     redirect_to root_path

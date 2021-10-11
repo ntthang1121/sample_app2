@@ -15,6 +15,7 @@ en:
       content_home3: "sample application.."
     sign_now: "Sign up now!"
     title_home: "Home"
+    micropost_Feed: "Micropost Feed"
   page_help:
     help: "Help"
     content_help:
@@ -126,3 +127,33 @@ en:
     msg_success: "Password has been reset."
   password_reset_controller_check_expiration:
     msg: "Password reset has expired."
+  page_show_users:
+    microposts: "Microposts"
+  page_micropost:
+    delete: "delete"
+    confirm: "You sure?"
+    poster: "Posted"
+    ago: "ago"
+  page_application_controller:
+    msg_danger: "Please log in"
+  page_micropost_controller_create:
+    msg_success: "Micropost create"
+  page_micropost_controller_destroy:
+    msg_success: "Micropost deleted"
+    msg_danger: "Deleted fail"
+  page_micropost_controller_correct:
+    msg_danger: "Micropost invalid"
+  page_user_info:
+    view_my_profile: "view my profile"
+    other: "%{count} micropost."
+  page_micropost_form:
+    placeholder: "Compose new micropost..."
+    submit: "Post"
+  micropost_rb_validates:
+    msg_content_type: "must be a valid image format"
+    msg_size: "should be less than 1MB"
+  page_feed:
+    msg_time_join: "You joined the Sample App at "
+    msg_micropost: "You don't have any microposts yet?"
+  i18n_js_custom:
+    msg: "Maximum file size is 1MB. Please choose a smaller file."

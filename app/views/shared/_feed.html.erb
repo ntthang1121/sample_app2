@@ -1,0 +1,10 @@
+<% if @feed_items.any? %>
+  <ol class="microposts">
+    <%= render @feed_items %>
+  </ol>
+  <%= paginate @feed_items,
+    params: {controller: :static_pages, action: :home} %>
+<% else %>
+  <h3><%= t "page_feed.msg_time_join" %><%= current_user.created_at %></h3>
+  <h1><%= t "page_feed.msg_micropost" %></h1>
+<% end %>
